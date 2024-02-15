@@ -1,0 +1,25 @@
+{
+  "name": "problem",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.17",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "echo tsc: $(tsc --version) && tsc",
+    "clean": "rm -r ./dist",
+    "watch": "tsc -w --preserveWatchOutput",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "echarts": "^5.4.3",
+    "reflect-metadata": "^0.2.1"
+  }
+}
