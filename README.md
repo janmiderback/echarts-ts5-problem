@@ -1,4 +1,4 @@
-# Generating SVG diagram using ECharts and TypeScript 5
+# ECharts and TypeScript 5
 
 - Clone the repo
 - Use a Node.js 20 environment
